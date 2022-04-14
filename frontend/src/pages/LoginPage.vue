@@ -4,7 +4,7 @@
       <v-row no-gutters>
         <v-col cols="6">
           <!-- header left -->
-          <v-container class="bg-container-header-left height-2">
+          <v-container class="bg-container-header-left height-6">
             <v-row>
               <v-col cols="1">
                 <v-img
@@ -102,7 +102,7 @@ export default {
 .text-align-left {
   text-align: left;
 }
-.height-2 {
+.height-6 {
   height: 6vh;
 }
 
@@ -116,7 +116,6 @@ export default {
 
 .bg-container-header-left {
   background: #8c7e7f3d;
-  max-height: 10vh;
 }
 
 .bg-form-left {
