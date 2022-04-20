@@ -15,7 +15,7 @@ mongoose.connect(database.db, {
     console.log('Can not connect to the database' + error);
 })
 
-const userAPI = require('../backend/routes/user.route')
+const userAPI = require('./routes/user.route')
 
 const app = express()
 app.use(cors())

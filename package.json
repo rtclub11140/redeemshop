@@ -1,0 +1,27 @@
+{
+  "name": "redeemshop",
+  "version": "1.0.0",
+  "description": "redeemshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtclub11140/redeemshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtclub11140/redeemshop/issues"
+  },
+  "homepage": "https://github.com/rtclub11140/redeemshop#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  },
+  "scripts": {
+    "dev": "concurrently -k yarn:start:api yarn:start:ui",
+    "start:ui": "yarn --cwd frontend serve",
+    "start:api": "yarn --cwd backend start"
+  }
+}
